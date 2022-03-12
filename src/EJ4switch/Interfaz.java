@@ -14,6 +14,7 @@ Elija una de las siguientes opciones:
 public class Interfaz {
 
     public static void main(String[] args) {
+
         int saldo= 350;
         System.out.println("Elija su consulta: ");
         System.out.println( " 1 para consultar su saldo");

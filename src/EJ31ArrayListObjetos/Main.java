@@ -1,6 +1,7 @@
 package EJ31ArrayListObjetos;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +19,8 @@ public class Main {
         listaAlumnos.add(alu4);
         listaAlumnos.add(alu5);
         listaAlumnos.add(alu6);
+
+
 
 
         System.out.println("Lista de alumnos"+ listaAlumnos);
@@ -46,5 +49,8 @@ public class Main {
       listaAlumnos.get(2).setNombre("Franco");
         System.out.println("Nombre de la posicion 3 cambiada a "+ listaAlumnos.get(2).nombre );
         System.out.println("Nombre posicion 0="+ listaAlumnos.get(0).nombre );
+
+
+
     }
 }

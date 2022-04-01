@@ -66,5 +66,14 @@ public class Main {
             System.out.println(Misericordia.get(i).getNombre()+" "+ Misericordia.get(i).getEdad()+" "+Misericordia.get(i).getSalario());
             System.out.println(Misericordia.get(i).DameLosDatos());
         }
+        //Array comun
+        int [] array23= new int [4];
+        array23[3]=4;
+
+        String arraystring[]= new String[4];
+        arraystring[2]="franco";
+        System.out.println(
+                arraystring[2]
+        );
     }
 }

@@ -49,11 +49,25 @@ public class Main {
         Misericordia.add(empl10);
         Misericordia.add(empl11);
 
+ArrayList<String> lpm= new ArrayList<String>();
+lpm.add("hola");
+lpm.add("hello");
+
+        for (String e:
+             lpm) {
+            if (e.equals("hola")){
+
+                System.out.println(e);
+
+            }
+        }
+
 
         for (Empleado e:
              Misericordia) {
-
             System.out.println(e.DameLosDatos());
+
+
 
         }
         System.out.println( "  "+ Misericordia.size());
